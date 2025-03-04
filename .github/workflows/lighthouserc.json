@@ -1,0 +1,10 @@
+{
+    "ci": {
+      "assert": {
+        "assertions": {
+          "errors-in-console": ["error", {"minScore": 0}]
+        }
+      }
+    }
+  }
+  
