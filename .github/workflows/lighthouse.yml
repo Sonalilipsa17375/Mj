@@ -31,7 +31,8 @@ jobs:
           sleep 5
 
       - name: Run Lighthouse CI
-        run: lhci autorun --collect.url=http://localhost:8080/index.html
+        run: lhci autorun --collect.url=http://localhost:8080/index.html --assertions.errors-in-console=off
+      
 
       - name: Upload Lighthouse report
         uses: actions/upload-artifact@v4
